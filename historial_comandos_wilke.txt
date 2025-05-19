@@ -1,0 +1,340 @@
+    1  cd /
+    2  ls
+    3  cd var
+    4  ls
+    5  cd log
+    6  journalctl
+    7  journalctl -fk
+    8  vim santi.txt
+    9  vim santi.sh
+   10  vim santi.txt
+   11  san.txt
+   12  vim san.txt
+   13  ls
+   14  cat san.txt
+   15  ls -l
+   16  cat << FIN
+   17  LINEA 2
+   18  LINEA 2
+   19  LINEA 3
+   20  FIN
+   21  cat << FIN > clase3.txt
+   22  linea 1
+   23  linea 2
+   24  linea 3
+   25  FIN
+   26  ls
+   27  cat clase3.txt
+   28  cat << FIN clase3.txt
+   29  FIN
+   30  cat << FIN >  clase3.txt
+   31  linea 4
+   32  linea 5
+   33  FIN
+   34  cat clase3.txt
+   35  cat << FIN >> clase3.txt
+   36  linea 1
+   37  linea 2
+   38  linea 3
+   39  FIN
+   40  cat clase3.txt
+   41  cd carpeta_compartida/
+   42  ls
+   43  history
+   44  history > historial.txt
+   45  ls
+   46  echo "hola"
+   47  cat historial.txt
+   48  echo "hola" >> historial.txt
+   49  man bc
+   50  bc <<< 1+2
+   51  cd ..
+   52  ls
+   53  cat clase 3.txt
+   54  cat clase3.txt
+   55  tac clase3.txt
+   56  echo "hola mundo"
+   57  man wc
+   58  echo "hola mundo" | wc 
+   59  cat clase3.txt | tail -n2
+   60  cat historial.txt | tail
+   61  ls
+   62  history > historial.txt
+   63  ls
+   64  cat clase3.txt
+   65  cat clase3.txt | grep 4 
+   66  cat clase3.txt | grep -i "Linea 4"
+   67  cat clase3.txt | grep -i Linea | head-n1
+   68  cat clase3.txt | grep -i Linea | head -n1
+   69  cd /
+   70  cd proc/
+   71  ls
+   72  cat cpuinfo
+   73  grep -i intel
+   74  cd /
+   75  ls
+   76  cd proc/
+   77  cat cpuifo
+   78  cat cpuinfo
+   79  pwd
+   80  cd
+   81  pwd
+   82  ls
+   83  ls -l
+   84  mkdir clase
+   85  ls -lls -l
+   86  mv clase3.txt clasmv clat clase
+   87  vagrant down
+   88  ls
+   89  t..
+   90  man wc
+   91  sudo apt intall tree
+   92  sudo apt install tree
+   93  sudo apt install trre
+   94  vim prueba.txt
+   95  cat "prueba"
+   96  cat "prueba.txt
+   97  cat
+   98  wq
+   99  :wq
+  100  qw
+  101  i
+  102   d
+  103  cd
+  104  end
+  105  wq
+  106  prueba
+  107  prueba.txt
+  108  sudo apt update && install tree
+  109  tree carpets
+  110  tree carpetas
+  111  sudo apt update && install tree
+  112  tree carpetas
+  113  sudo apt install tree
+  114  tree carpetas
+  115  mkdir carpetas
+  116  mkdir  sub1
+  117  mkdir sub2
+  118  mkdir sub1
+  119  mv sub1 carpetas
+  120  mv sub2 carpetas
+  121  tree carpetas
+  122  rmdir sub2
+  123  cd carpetas
+  124  rmdir sub2
+  125  tree carpetas
+  126  cd home
+  127  cd /home
+  128  ls
+  129  cd vagrant
+  130  ls
+  131  tree carpetas
+  132  mkdir -p prueba/{directorios1, directorio2}/directoriospeques{1..2}
+  133  tree prueba
+  134  mkdir -p santi/{dire1,dire2}/archivo{1..2}
+  135  tree santi
+  136  useradd user1
+  137  sudo useradd user1
+  138  sudo paswd user1 
+  139  sudo passwd user1
+  140  su user1
+  141  sudo group add desarrollo
+  142  sudo groupadd desarrollo
+  143  sudo usermod -g desarrollo user1
+  144  sudo grep user1/etc/shadow
+  145  sudo useradd -c"programador java" -m -s./bin/bash user2
+  146  sudo useradd -c"programador" -m -s/bin/bash user2
+  147  sudo usermod -s/bin/bash user1
+  148  su user2
+  149  santi
+  150  sudo passwd user2
+  151  su user2
+  152  santi
+  153  su user2
+  154  ls -l
+  155  sudo chmod 740 prueba.txt
+  156  ls -l
+  157  vim pruebas.txt
+  158  cat pruebas.txt
+  159  cat << FIN > pruebas.txt
+  160  hola me llamo santi
+  161  :wq
+  162  FIN
+  163  cat pruebas.txt
+  164  cat pruebas.txt | grep w
+  165  mkdir santi
+  166  mv pruebas.txt santi
+  167  mv pruebas.txt santi1.txt
+  168  ls
+  169  cd santi
+  170  ls
+  171  cd /
+  172  ls
+  173  ls $
+  174  cd $
+  175  cd santi
+  176  cd ..
+  177  ls
+  178  cd ..
+  179  cd vagrant
+  180  cd home
+  181  cd vagrant
+  182  ls
+  183  ls -l
+  184  cd repogit
+  185  ls
+  186  cp -r san.txt/ prueba.txt
+  187  cd home
+  188  cd /home
+  189  sudo apt upadate && install tree
+  190  tree carpetas
+  191  apt  install tree  # version 2.0.2-1
+  192  apt install tree
+  193  cd
+  194  vim script_dish.sh
+  195  cat script_dish.sh
+  196  mkdir -p home/{materia1,materia2}/uni{1..3}
+  197  tree home
+  198  cd /home
+  199  mkdir -p home/{materia1,materia2}/uni{1..3}
+  200  sudo mkdir -p home/{materia1,materia2}/uni{1..3}
+  201  tree home
+  202  cd
+  203  vim script_dir.sh
+  204  cat script_dir.sh
+  205  git add .
+  206  cd
+  207  cd repogit/tp_arquitectura
+  208  sudo mkdir -p home/{materia1,materia2}/uni{1..3}
+  209  tree home
+  210  vim script_dir.sh
+  211  cat script_dir.sh
+  212  vim script_dir.sh
+  213  cat script_dir.sh
+  214  git add .
+  215  git commit " ADD:Añadiendo script"
+  216  git commit -m "ADD:Añandiendo script"
+  217  git push
+  218  rm datos_u
+  219  rm proc
+  220  git push
+  221  git add . 
+  222  git push
+  223  ls
+  224  git add . 
+  225  git push -u origin main
+  226  ls
+  227  ls -l
+  228  git rm proc datos_u
+  229  git rm datos_u
+  230  rm proc datos_u
+  231  git push origin main
+  232  history -a
+  233  cd repogit/tp_arquitectura/
+  234  echo “Usuario=$(whoami)” > datos_usuario.txt
+  235  cat datos_usuario.txt
+  236  cd
+  237  cd /proc
+  238  cat cpuinfo | grep -i "model info
+  239  "
+  240  cat cpuinfo | grep -i "model info"
+  241  cat cpuinfo | grep -i "model info
+  242  "
+  243  cat cpuinfo | grep -i "model name" | tail -n1 | head -n| |
+  244  cat cpuinfo | grep -i "model name" | tail -n1 | head -n1 
+  245  cat cpuinfo | grep -i "model name" | tail -n1 | head -n1 >> datos_usuario.txt
+  246  cat cpuinfo | grep -i "model name" | tail -n1 | head -n1 > datos_usuario.txt
+  247  cd
+  248  cd repogit/tp_arquitectura/
+  249  cat cpuinfo | grep -i "model name" | tail -n1 | head -n1 > datos_usuario.txt
+  250  cat /proc | cat cpuinfo | grep -i "model name" | tail -n1 | head -n1 > datos_usuario.txt
+  251  cd /proc | cat cpuinfo | grep -i "model name" | tail -n1 | head -n1 > datos_usuario.txt
+  252  cd /proc | cat cpuinfo| grep -i "model name" | tail -n1 | head -n1 > datos_usuario.txt
+  253  cd | cd /proc | cat cpuinfo| grep -i "model name" | tail -n1 | head -n1 > datos_usuario.txt
+  254  grep -i "model name" /proc/cpuinfo | tail -n1 | head -n1| >> datos_usuario.txt
+  255  cat datos_usuario.txt
+  256  cat datos_usuario
+  257  cat datos_usuario.txt
+  258  grep -i "model name" /proc/cpuinfo | tail -n1 | head -n1 >> datos_usuario.txt
+  259  cat datos_usuario.txt
+  260  echo “Usuario=$(whoami)” > datos_usuario.txt
+  261  grep -i "model name" /proc/cpuinfo | tail -n1 | head -n1 >> datos_usuario.txt
+  262  cat datos_usuario.txt
+  263  cd
+  264  cd/readme+
+  265  ls
+  266  cat readme
+  267  ls -l
+  268  vim README
+  269  cat README
+  270  vim README
+  271  cat README
+  272  sudo chmod 777 README
+  273  vim README
+  274  cat README
+  275  LS
+  276  ls
+  277  repogit/tp_arquitectura/
+  278  repogit/tp_arquitectura
+  279  cd
+  280  cd repogit/tp_arquitectura/
+  281  ls
+  282  cat README
+  283  sudo chmod 777 README
+  284  vim README
+  285  cat README
+  286  git add README.md datos_usuario.txt
+  287  git add README datos_usuario.txt
+  288  git commit -m "ADD Añadiendo Readme y datos de usuario"
+  289  git push
+  290  ls
+  291  cd
+  292  ls
+  293  tree carpetas
+  294  cd repogit/tp_arquitectura
+  295  cd
+  296  cd home
+  297  cd /home
+  298  mkdir prueba/ {materia1,materia2}/uni{1..3}
+  299  mkdir tp
+  300  mkdir "tp"
+  301  mkdir -p "tp"
+  302  whoami
+  303  sudo mkdir prueba/ {materia1,materia2}/uni{1..3}
+  304  sudo mkdir -p prueba/ {materia1,materia2}/uni{1..3}
+  305  tree prueba
+  306  mkdir -p prueba/{materia1,materia2}/uni{1..3}
+  307  sudo mkdir -p prueba/{materia1,materia2}/uni{1..3}
+  308  tree prueba
+  309  sudo mkdir -p prueba/{materia1,materia2}/uni{1..3}>script_dir.sh
+  310  sudo chmod 111 script_dir.sh
+  311  vim script_dir.sh
+  312  sudo chmod 333 script_dir.sh
+  313  cat script_dir.sh
+  314  vim script_dir.sh
+  315  cat script_dir.sh
+  316  sudo useradd -m -s/bin/bash -c "usuario para punto 8" user
+  317  su user
+  318  santi
+  319  su user
+  320  sudo passwd user
+  321  su user
+  322  cp ~/.bash_history ./Historial_comandos_wilke.txt
+  323  git add .
+  324  git commit -m "Add: Historial de comandos de apellido"
+  325  git push
+  326  cp ~/.bash_history ./Historial_comandos_wilke.txt
+  327  git commit -m "Add: Historial de comandos de wilke"
+  328  git push
+  329  git add .
+  330  git push 
+  331  ssh-keygen
+  332  history -a > $HOME/.bash_history
+  333  cat $HOME/.bash_history
+  334  history > $HOME/.bash_history
+  335  cat $HOME/.bash_history
+  336  cp ~/.bash_history ./historial_comandos_wilke.txt
+  337  cat historial_comandos_wilke.txt
+  338  cd repogit/tp_arquitectura
+  339  history -a
+  340  history > $HOME/.bash_history
